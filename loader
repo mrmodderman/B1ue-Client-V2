@@ -1,0 +1,17 @@
+local placeId = game.PlaceId
+local placeIds = {
+    [101272402522756] = function() -- BBQ Battles
+  		
+    end,
+
+	[537413528] = function() -- [UPD] BABFT
+      
+    end,
+}
+
+-- load universal
+if placeIds[placeId] then
+    placeIds[placeId]()
+else
+    print("Unsupported Game ID: " .. placeId)
+end
