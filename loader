@@ -13,5 +13,6 @@ local placeIds = {
 if placeIds[placeId] then
     placeIds[placeId]()
 else
-    print("Unsupported Game ID: " .. placeId)
+	print("Cannot find game, loading Universal.")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mrmodderman/B1ue-Client-V2/refs/heads/main/Universal"))()
 end
